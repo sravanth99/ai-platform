@@ -1,0 +1,13 @@
+name: Dimensionality Reduction
+
+conda_env: conda.yaml
+
+entry_points:
+  main:
+    parameters:
+        randomstate :{type: int , default: None }
+        n_components: {type: int}
+        perplexity :{type: int , default : 30}
+      
+       
+    
