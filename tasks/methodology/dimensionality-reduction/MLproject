@@ -10,4 +10,4 @@ entry_points:
         perplexity :{type: int , default : 30}
       
        
-    
+command : "jupyter nbconvert --to script DimreductionMNIST.ipynb "
